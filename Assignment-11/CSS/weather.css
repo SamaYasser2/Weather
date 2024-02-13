@@ -1,0 +1,107 @@
+
+.nav-btn{
+    color: white;
+    font-size: 16px;
+    padding: 5px 25px;
+    border-radius: 25px 25px;
+    border: 2px solid transparent;
+    background-color: transparent;
+    transition: all 0.5s;
+}
+ 
+ 
+ 
+.nav-btn:hover{
+    font-size: 16px;
+    padding: 5px 25px;
+    border-radius: 25px 25px;
+    border: 2px solid #177BD8;
+    color: #177BD8;
+    background-color: transparent;
+   
+}
+
+.nav-btn1{
+    margin-left: 10px;
+    padding: 5px 25px;
+     color: #177BD8;
+     font-size: 16px;
+     border-radius: 25px 25px;
+     background-color: transparent;
+     border: 2px solid #177BD8;
+    
+}
+
+
+
+.backg{
+    /* background-image: url(/images/banner.png); */
+    background-position: center center;
+    background-size: cover;
+    max-height: 350px
+}
+
+.form-control:focus {
+    border-color: transparent;
+    outline: 0;
+    box-shadow: none;
+ background-color: #1e202b;
+        color: aliceblue;
+}
+
+    .form-btn {
+        bottom: 5px;
+        top: 5px;
+        right: 5px;
+        background-color: #177BD8;
+        color: white;
+    }
+
+    .form-btn:hover{
+            background-color: #177BD8;
+            color: white;
+    }
+
+    .form-inp{
+        background-color: #1e202b;
+    }
+    .form-inp::placeholder{
+        color: rgb(173, 173, 173);
+    }
+
+    .weather-card{
+        background-color: #323544;
+        color: white;
+      
+    }
+
+    #td-degree{
+        font-size: 80px;
+        font-weight: bold;
+    }
+    .icon{
+        width: 50%;
+    }
+
+   body{
+        background-color: #1e202b;
+    }
+
+    footer{
+        background-color: #262936;
+       
+    }
+
+.icon-sub{
+    background-color:  #1e202b;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+
+.icon-sub:hover{
+    background-color:  #177BD8;
+   color: white;
+}
